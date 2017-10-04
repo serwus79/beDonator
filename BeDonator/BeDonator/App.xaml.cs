@@ -24,15 +24,35 @@ namespace BeDonator
                     new NavigationPage(new ItemsPage())
                     {
                         Title = "Browse",
-                        Icon = Device.OnPlatform<string>("tab_feed.png",null,null)
+                        Icon =  GetFeedIcon()
                     },
                     new NavigationPage(new AboutPage())
                     {
                         Title = "About",
-                        Icon = Device.OnPlatform<string>("tab_about.png",null,null)
+                        Icon = GetAboutIcon()
                     },
                 }
             };
+
         }
+        private static string GetFeedIcon(){
+            switch (Device.RuntimePlatform){
+                case Device.iOS:
+                    return "tab_feed.png";
+                default:
+                    return null;
+            }
+        }
+        private static string GetAboutIcon()
+        {
+            switch (Device.RuntimePlatform)
+            {
+                case Device.iOS:
+                    return "tab_about.png";
+                default:
+                    return null;
+            }
+        }
+
 	}
 }
