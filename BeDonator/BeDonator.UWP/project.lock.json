@@ -2157,9 +2157,6 @@
         "build": {
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
-      },
-      "BeDonator/1.0.0": {
-        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-arm": {
@@ -4426,9 +4423,6 @@
         "build": {
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
-      },
-      "BeDonator/1.0.0": {
-        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-arm-aot": {
@@ -6731,9 +6725,6 @@
         "build": {
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
-      },
-      "BeDonator/1.0.0": {
-        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-x64": {
@@ -9009,9 +9000,6 @@
         "build": {
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
-      },
-      "BeDonator/1.0.0": {
-        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-x64-aot": {
@@ -11323,9 +11311,6 @@
         "build": {
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
-      },
-      "BeDonator/1.0.0": {
-        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-x86": {
@@ -13601,9 +13586,6 @@
         "build": {
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
-      },
-      "BeDonator/1.0.0": {
-        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-x86-aot": {
@@ -15915,9 +15897,6 @@
         "build": {
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
-      },
-      "BeDonator/1.0.0": {
-        "type": "project"
       }
     }
   },
@@ -22244,11 +22223,6 @@
         "xamarin.forms.2.3.4.224.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
-    },
-    "BeDonator/1.0.0": {
-      "type": "project",
-      "path": "../BeDonator/BeDonator.csproj",
-      "msbuildProject": "../BeDonator/BeDonator.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -22263,12 +22237,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Projects\\BeDonator\\BeDonator\\BeDonator.UWP\\BeDonator.UWP.csproj",
+      "projectUniqueName": "C:\\Projects\\xamarin\\BeDonator\\BeDonator\\BeDonator.UWP\\BeDonator.UWP.csproj",
       "projectName": "BeDonator.UWP",
-      "projectPath": "C:\\Projects\\BeDonator\\BeDonator\\BeDonator.UWP\\BeDonator.UWP.csproj",
-      "projectJsonPath": "C:\\Projects\\BeDonator\\BeDonator\\BeDonator.UWP\\project.json",
+      "projectPath": "C:\\Projects\\xamarin\\BeDonator\\BeDonator\\BeDonator.UWP\\BeDonator.UWP.csproj",
+      "projectJsonPath": "C:\\Projects\\xamarin\\BeDonator\\BeDonator\\BeDonator.UWP\\project.json",
       "packagesPath": "C:\\Users\\Krzysztof\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\BeDonator\\BeDonator\\BeDonator.UWP\\obj\\",
+      "outputPath": "C:\\Projects\\xamarin\\BeDonator\\BeDonator\\BeDonator.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\Krzysztof\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22278,15 +22252,6 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://nuget.infocity.pl/nuget": {},
         "https://www.nuget.org/api/v2/": {}
-      },
-      "frameworks": {
-        "uap10.0.10586": {
-          "projectReferences": {
-            "C:\\Projects\\BeDonator\\BeDonator\\BeDonator\\BeDonator.csproj": {
-              "projectPath": "C:\\Projects\\BeDonator\\BeDonator\\BeDonator\\BeDonator.csproj"
-            }
-          }
-        }
       }
     },
     "dependencies": {

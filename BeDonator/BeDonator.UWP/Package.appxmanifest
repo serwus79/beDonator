@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="dd139855-521e-487a-91c2-b1d7d7f32598"
+    Name="4f9f1fae-df3f-4392-ba50-b71697988d54"
     Publisher="CN=Krzysztof"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="dd139855-521e-487a-91c2-b1d7d7f32598" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="4f9f1fae-df3f-4392-ba50-b71697988d54" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>BeDonator.UWP</DisplayName>
@@ -26,7 +26,7 @@
   <Resources>
     <Resource Language="x-generate"/>
   </Resources>
-
+  
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
